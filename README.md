@@ -1,1 +1,1 @@
-read mm
+network bas2
