@@ -1,0 +1,7 @@
+# connect without pass
+Host *
+    HostName 18.206.208.103
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
+
