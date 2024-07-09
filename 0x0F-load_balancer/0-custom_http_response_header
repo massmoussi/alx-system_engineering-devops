@@ -2,8 +2,8 @@
 # This script installs Nginx and sets up a custom HTTP header
 
 # Update and install Nginx
-apt-get update
-apt-get install -y nginx
+sudo apt-get update
+sudo apt-get install -y nginx
 
 # Get the hostname
 HOSTNAME=$(hostname)
@@ -27,5 +27,5 @@ server {
 " > /etc/nginx/sites-available/default
 
 # Restart Nginx to apply changes
-systemctl restart nginx
+sudo systemctl restart nginx
 
